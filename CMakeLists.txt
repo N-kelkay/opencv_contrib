@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.9)
 PROJECT (opencv_contrib)
 find_package(OpenCV REQUIRED)
 set( NAME_SRC
-        modules/aruco/samples/detect_board_charuco.cpp modules/aruco/samples/detector_params.yml)
+        modules/aruco/samples/detect_board_charuco.cpp)
 
 set( NAME_HEADERS
         include/header.h
